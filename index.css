@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  background-color: rgb(0, 0, 121);
+}
+@font-face {
+  font-family: cursed;
+  src: url(cursed.ttf);
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+h3{
+  background-color: aliceblue;
+  font-size: 50px;
+  text-align: center;
+}
+.score{
+  background-color: aquamarine;
+  font-size: 120px;
+  text-align: center;
+  font-family: cursed;
+}
+.bt{
+  font-family: cursed;
+  width: 70px;
+  height: 50px;
+  margin-top: 5px;
+}
+.d_reset{
+  text-align: center;
+  margin: 55px;
+}
+.reset{
+  height: 65px;
+  width: 65px;
+  color: rgb(212, 0, 0);
+  background-color:rgb(57, 30, 154);
+}
